@@ -1,27 +1,42 @@
-# React + TypeScript + Vite
+# Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a game page built using Vite, React, Chakra UI, and TypeScript. It showcases a modern and responsive design, providing an interactive experience for users to explore various games.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **Vite:** A build tool that aims to provide a faster and leaner development experience.
+- **React:** A JavaScript library for building user interfaces.
+- **Chakra UI:** A simple, modular, and accessible component library that gives you all the building blocks you need to build your React applications.
+- **TypeScript:** An open-source language that builds on JavaScript by adding static types.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployed Page
+You can view the live version of the project [here](https://game-page-project.vercel.app/).
 
-## Expanding the ESLint configuration
+## Features
+- Responsive design that looks great on both desktop and mobile devices.
+- Search functionality to easily find games.
+- Interactive UI elements for an engaging user experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation and Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio-project.git
+Navigate to the project directory:
+bash
+Copy code
+cd portfolio-project
+Install the dependencies:
+bash
+Copy code
+npm install
+Start the development server:
+bash
+Copy code
+npm run dev
+Contributing
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-- Configure the top-level `parserOptions` property like this:
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Contact
+If you have any questions or need further assistance, please feel free to reach out to me at estebanmff@gmail.com.
