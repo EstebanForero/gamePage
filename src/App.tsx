@@ -21,7 +21,7 @@ function App() {
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery)
 
   return (
-    <Grid templateAreas={{
+    <Grid templateAreas={{//l
       base: `"nav" "main"`,
       lg: `"nav nav" "aside main"`
     }}
